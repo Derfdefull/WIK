@@ -1,7 +1,7 @@
 <?php
-include_once '../Controllers/TemplateController.php';
-include_once '../Models/TemplateModel.php';
+require_once('./Controllers/TemplateController.php');
+require_once('./Models/TemplateModel.php');
 
 $ActionViewer = new TemplateController();
-
-include $ActionViewer->RequestViews('Botones');
+include $ActionViewer->RequestViews($_GET["Action"]);
+?>

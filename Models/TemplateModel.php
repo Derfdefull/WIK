@@ -2,8 +2,8 @@
 
 class TemplateModel{
 
-    public Views($ViewRequest){
-        return "../Views/".$ViewRequest.".php";
+    public function Views($ViewRequest){
+        return "./Views/".$ViewRequest.".php";
     }
 
 }
