@@ -1,3 +1,23 @@
 {
-    "editor.fontSize": 14
+    "editor.fontSize": 14,
+    "php.suggest.basic": true,
+    "php.validate.executablePath": "C:/xampp/php/php.exe",
+    "auto-rename-tag.activationOnLanguage": [
+        "*"
+    ],
+    "files.associations": {
+        // extension name : html
+        "*.ejs": "html",
+        "*.js": "html"
+    },
+   
+    "css.remoteStyleSheets": [
+        "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      ],
+
+      "editor.quickSuggestions": {
+        "comments": false, 
+        "strings": true, 
+        "other": true
+    }
 }

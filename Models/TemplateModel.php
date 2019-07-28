@@ -1,5 +1,4 @@
 <?php
-
 class TemplateModel{
 
     public function Views($ViewRequest){
