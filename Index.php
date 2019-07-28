@@ -9,39 +9,32 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <style>
-  body{
-    background-color: #8F3985;
-  }
+    body{
+      background-color: #8F3985;
+      font-size: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
   </style>
   </head>
-  <body>
+  <body class="font-weight-bold">
 
-  <!--      Header    -->
-  <?php
-    include_once './Views/Header.php';
-    include_once './Views/Content.php';
-  ?>
+    <div class="row">
+        <!--      Header    -->
+        <div class="col-12">
+        <?php include_once './Views/Header.php'; ?>
+        </div>
 
+      <!--      Content    -->
+      <div class="col-12">
+        <?php include_once './Views/Content.php'; ?>
+        </div>
 
-  <!--<div class="w-25 card text-white bg-primary">
-    <img class="card-img-top" width="100px" height="300px" src="./img/kiwi.png" alt="">
-    <div class="card-body">
-      <h4 class="card-title">Kiwi Dreamers</h4>
-      <p class="card-text">Ekisde</p>
+        <!--      Template    -->
+        <div class="col-12">
+        <?php include './Views/Template.php'; ?>
+        </div>
     </div>
-  </div>-->
 
-  <ul class="nav justify-content-center">
-      <li class="nav-item">
-          <a class="nav-link active" href="index.php?Action=Botones">Botones</a>
-      </li>
-      <li class="nav-item">
-          <a class="nav-link" href="index.php?Action=Saludo">Hola Mundo</a>
-      </li>
-  </ul>
-      <?php 
-      include './Views/Template.php';
-      ?>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
