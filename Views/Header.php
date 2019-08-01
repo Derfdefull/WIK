@@ -1,9 +1,9 @@
   <!-- Menu -->
 
-  <nav class="navbar navbar-expand-md rounded-bottom " style=" background-color: white; width:100%;" >
-  <div  class="navbar-brand">
-  <img width="150px" src="./img/lel.png">  </div>
-  <button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="navbar navbar-expand-sm" style=" background-color: white; width:100%; heigth:10%;" >
+  <a  class="navbar-brand" href="#" style="color:indigo" onMouseover="this.style.color='black'" onMouseout="this.style.color='indigo'">
+  <img width="75px" class="pl-2" src="./img/prueba.gif"/>Kiwi Dreamers </a>
+  <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
