@@ -16,26 +16,35 @@
       max-width:100%;
       overflow-x:hidden;
     }
+    a{
+      color: indigo;
+      text-shadow: 1px 2px 2px white;
+    }
   </style>
   </head>
   <body class="font-weight-bold">
-<!--      Header    -->
+
+<div class="row">
+    <!--      Header    -->
         <div class="col-12">
         <?php include_once './Views/Header.php'; ?>
         </div>
-    <div class="row" style="margin-left:5%; margin-right:5%;">
+    
       <!--      Content    -->
-      <div class="col-12 grid-size" style="top:4%; background-color: #8F3985;">
-        <?php include_once './Views/Content.php'; ?>
-        </div>
+      <div class="col-12 pl-2 pr-2 pl-sm-5 pr-sm-5">
+          <div class= "container-fluid" style="; background-color: #26003D;">
+          <?php include_once './Views/Content.php'; ?>
+          </div>
+      </div>
 
-        <!--      Template    
+        <!--      Template     -->  
         <div class="col-12">
         <?php include './Views/Template.php'; ?>
-        </div>-->
+        </div>
 
-        <div class="col-12" style="top:4%">
-        <?php include_once './Views/Footer.php'; ?>
+        <!--      Footer     -->
+        <div class="col-12" >
+          <?php include_once './Views/Footer.php'; ?>
         </div>
 
 
