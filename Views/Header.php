@@ -1,6 +1,6 @@
   <!-- Menu -->
 
-  <nav class="navbar navbar-expand-sm" style=" background-color: white; width:100%; heigth:10%;" >
+  <nav class="navbar navbar-expand-sm border-bottom" style="background-color: white; width:100%; heigth:10%;" >
   <a  class="navbar-brand" href="#" style="color:indigo" onMouseover="this.style.color='black'" onMouseout="this.style.color='indigo'">
   <img width="75px" class="pl-2" src="./img/prueba.gif"/>Kiwi Dreamers </a>
   <button class="navbar-toggler bg-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

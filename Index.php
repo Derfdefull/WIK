@@ -10,29 +10,35 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <style>
     body{
-      background-color: #8F3985;
+      
       font-size: 20px;
       font-family: Arial, Helvetica, sans-serif;
+      max-width:100%;
+      overflow-x:hidden;
     }
   </style>
   </head>
   <body class="font-weight-bold">
-
-    <div class="row">
-        <!--      Header    -->
+<!--      Header    -->
         <div class="col-12">
         <?php include_once './Views/Header.php'; ?>
         </div>
-
+    <div class="row" style="margin-left:5%; margin-right:5%;">
       <!--      Content    -->
-      <div class="col-12">
+      <div class="col-12 grid-size" style="top:4%; background-color: #8F3985;">
         <?php include_once './Views/Content.php'; ?>
         </div>
 
-        <!--      Template    -->
+        <!--      Template    
         <div class="col-12">
         <?php include './Views/Template.php'; ?>
+        </div>-->
+
+        <div class="col-12" style="top:4%">
+        <?php include_once './Views/Footer.php'; ?>
         </div>
+
+
     </div>
 
     <!-- Optional JavaScript -->
