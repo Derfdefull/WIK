@@ -145,7 +145,7 @@ body{
 </div>
 
 <div class="col-12 col-md-4">
-	<img height="200px" alt="" src="./img/lel.png">
+	<img height="450px" style="width:900px; position:relative; left:-250px; " alt="" src="./img/lel.png">
 </div>
 
 <div class="col-md-4 d-none d-md-block">
@@ -172,6 +172,11 @@ body{
 					<p><strong>Servicio Tecnico en computadoras</strong></p>
 				</div>
 			</div>
+      <br>
+      <details>
+        <summary>Detalles</summary>
+        <p>Todo en reparacion de pc.</>
+        </details>
 		</div>
     <!--      n2     -->  
 		<div class="tarjeta-wrap">
@@ -180,7 +185,12 @@ body{
 				<div class="atras">
         <p><strong>Servicio Tecnico Electricista</strong></p>
 				</div>
-			</div>
+			</div> 
+      <br>
+      <details>
+        <summary>Detalles</summary>
+        <p>Todo en instalaciones electricas.</>
+        </details>
 		</div>
     <!--      n3     -->  
 		<div class="tarjeta-wrap">
@@ -190,6 +200,11 @@ body{
         <p><strong>Muchos servicios mas en un futuro</strong></p>
 				</div>
 			</div>
+      <br>
+      <details>
+        <summary>Detalles</summary>
+        <p>Muchos nuevos servicios pronto!.</p>
+        </details>
 		</div>
 	</div>
 </div>
