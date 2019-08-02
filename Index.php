@@ -10,15 +10,19 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <style>
     body{
-      
+      background-color: indigo;
       font-size: 20px;
       font-family: Arial, Helvetica, sans-serif;
       max-width:100%;
       overflow-x:hidden;
     }
     a{
+      color: white;
+    }
+    a:hover {
       color: indigo;
       text-shadow: 1px 2px 2px white;
+      text-decoration: none;
     }
   </style>
   </head>
@@ -32,20 +36,20 @@
     
       <!--      Content    -->
       <div class="col-12 pl-2 pr-2 pl-sm-5 pr-sm-5">
-          <div class= "container-fluid" style="; background-color: #26003D;">
+        <div class= "container-fluid bg-light">
           <?php include_once './Views/Content.php'; ?>
-          </div>
+        </div>
       </div>
 
-        <!--      Template     -->  
-        <div class="col-12">
+      <!--      Template     -->  
+      <div class="col-12">
         <?php include './Views/Template.php'; ?>
-        </div>
+      </div>
 
-        <!--      Footer     -->
-        <div class="col-12" >
-          <?php include_once './Views/Footer.php'; ?>
-        </div>
+      <!--      Footer     -->
+      <div class="col-12" >
+        <?php include_once './Views/Footer.php'; ?>
+      </div>
 
 
     </div>
