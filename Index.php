@@ -8,23 +8,6 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <style>
-    body{
-      background-color: indigo;
-      font-size: 20px;
-      font-family: Arial, Helvetica, sans-serif;
-      max-width:100%;
-      overflow-x:hidden;
-    }
-    a{
-      color: white;
-    }
-    a:hover {
-      color: indigo;
-      text-shadow: 1px 2px 2px white;
-      text-decoration: none;
-    }
-  </style>
   </head>
   <body class="font-weight-bold">
 

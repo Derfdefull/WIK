@@ -1,5 +1,5 @@
 <!-- Footer -->
-<footer class="page-footer font-small unique-color-dark" style="background-color: #26003D; color:white;">
+<footer class=" font-small unique-color-dark" style="background-color: #26003D; color:white;">
 
   <div class="border-top"  style="background-color: indigo;">
     <div class="container">
@@ -113,7 +113,7 @@
       <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
 
         <!-- Links -->
-        <h6 class="text-uppercase font-weight-bold"> contacto </h6>
+        <h6 class="text-uppercase font-weight-bold"> Contacto </h6>
         <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
         <p>
           <i class="fas fa-home mr-3"></i> Sensuntepeque, Cabañas, El Salvador de CA</p>
