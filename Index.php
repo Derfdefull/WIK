@@ -13,26 +13,6 @@
 
 <body class="font-weight-bold">
 
-  <div class="row">
-    <!--      Header    -->
-    <div class="col-12">
-      <?php include_once './Views/Header.php'; ?>
-    </div>
-
-    <!--      Content    -->
-    <div class="col-12 pl-2 pr-2 pl-sm-5 pr-sm-5">
-      <div class="container-fluid bg-light">
-        <?php include_once './Views/Content.php'; ?>
-      </div>
-    </div>
-
-    <!--      Template    --> 
-
-
-    <!--      Footer     -->
-    <div class="col-12">
-      <?php include_once './Views/Footer.php'; ?>
-    </div>
 
 
   </div>
