@@ -26,10 +26,8 @@
       </div>
     </div>
 
-    <!--      Template     -->
-    <div class="col-12">
-      <?php include './Views/Template.php'; ?>
-    </div>
+    <!--      Template    --> 
+
 
     <!--      Footer     -->
     <div class="col-12">
