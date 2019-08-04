@@ -7,8 +7,8 @@
 	box-sizing: border-box;
 }
 
-body{
- 	background: #1D1F20;
+body, html{
+ 	background-color: indigo;
 	font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     max-width:100%;
@@ -35,7 +35,7 @@ body{
 }
 
 .tarjeta{
-	width: 300px;
+	width: auto	;
 	height: 350px;
 	position: relative;
 	-webkit-transform-style: preserve-3d;
