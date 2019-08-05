@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Title</title>
+  <title>KiwiDreamers</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -19,8 +19,8 @@
     </div>
 
     <!--      Content    -->
-    <div class="col-12 pl-2 pr-2 pl-sm-5 pr-sm-5">
-      <div class="container-fluid bg-light">
+    <div class="col-12 Content">
+      <div class=" container-fluid  bg-light" >
         <?php include_once './Views/Content.php'; ?>
       </div>
     </div>

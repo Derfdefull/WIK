@@ -7,6 +7,12 @@
 	box-sizing: border-box;
 }
 
+.Content{
+	
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
 body, html{
  	background-color: indigo;
 	font-size: 20px;
@@ -92,10 +98,10 @@ body, html{
 }
 
 
-    a{
+    .links{
       color: white;
     }
-    a:hover {
+    .links:hover {
       color: indigo;
       text-shadow: 1px 2px 2px white;
       text-decoration: none;

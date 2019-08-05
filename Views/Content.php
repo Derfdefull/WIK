@@ -40,7 +40,7 @@
 	for ($i = 0; $i < 3; $i++) { ?>
 		<div class="col-12 col-sm-4 m-0 p-0">
 			<div class="card">
-				<img width="inherit" height="450px" src="./img/Cards/CardImg<?php echo $i + 1; ?>.jpg" class="card-img" alt="">
+				<img width="inherit" height="450px" width="180px" src="./img/Cards/CardImg<?php echo $i + 1; ?>.jpg" class="card-img" alt="">
 				<div class="card-body">
 					<h5 class="card-title"><?php echo $Description[$i]; ?></h5>
 					<p class="card-text"><?php echo $Details[$i]; ?></p>

@@ -72,16 +72,16 @@
         <h6 class="text-uppercase font-weight-bold"> Servicios </h6>
         <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
         <p>
-          <a href="#!">Soporte Tecnico</a>
+          <a class="links" href="#!">Soporte Tecnico</a>
         </p>
         <p>
-          <a href="#!"> Clientes</a>
+          <a class="links" href="#!"> Clientes</a>
         </p>
         <p>
-          <a href="#!">BrandFlow</a>
+          <a class="links" href="#!">BrandFlow</a>
         </p>
         <p>
-          <a href="#!">Bootstrap Angular</a>
+          <a class="links" href="#!">Bootstrap Angular</a>
         </p>
 
       </div>
