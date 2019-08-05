@@ -1,4 +1,7 @@
-<?php 
-echo "<h1> HELLO WORLD </h1>"
+<?php
+require_once('./Controllers/TemplateController.php');
+require_once('./Models/TemplateModel.php');
+
+include_once "./Views/Template.php";
 
 ?>
