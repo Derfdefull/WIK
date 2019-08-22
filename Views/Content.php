@@ -1,28 +1,29 @@
 <?php include_once './Source/Styles.php'; ?>
-<div class="bd-example bg-light">
-  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+<div class="bd-example bg-dark">
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" style="height:610px">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
       <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
     </ol>
-    <div class="carousel-inner">
+    <div class="carousel-inner ">
       <div class="carousel-item active">
-        <img src="./img/LogoKIWI.png" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>First slide label</h5>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        <img style="height:610px" src="./img/Ekisde.jpg" class="d-block w-100" alt="...">
+		<div class="carousel-caption d-none d-md-block" style="background-color:rgb(0,0,0,0.75); 
+		">
+          <h5 style="font-family:Comic Sans MS">Mantenimiento de Computadoras</h5>
+          <p style="font-family:Comic Sans MS">Contamos con los mejores tecnicos para computadores, mas info aqui!!</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="./img/LogoKIWI.png" class="d-block w-100" alt="...">
+        <img style="height:610px" src="./img/LogoKIWI.png" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5>Second slide label</h5>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="./img/LogoKIWI.png" class="d-block w-100" alt="...">
+        <img style="height:610px" src="./img/LogoKIWI.png" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5>Third slide label</h5>
           <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
@@ -46,7 +47,7 @@
 
 
 
-<!--     Contenido Superior     
+<!--     Contenido Superior   -->   
 <div class="row border-top">
 	<div class="col-md-4 col-sm-4 d-none d-md-block">
 
@@ -72,7 +73,7 @@
 		</div>
 	</div>
 </div>-->
-<!--      Tarjetas     
+<!--      Tarjetas     --> 
 
 <div class="row card-group">
 	 <?php
@@ -97,4 +98,4 @@
 			</div>
 		</div>
 	<?php } ?>
-</div>--> 
+</div>

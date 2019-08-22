@@ -23,7 +23,7 @@
     </div>
     
     <!--      Content    -->
-    <div class="col-12 Content">
+    <div class="col-12 ">
       <div class="container-fluid" >
         <?php include_once './Views/Content.php'; ?>
       </div>
