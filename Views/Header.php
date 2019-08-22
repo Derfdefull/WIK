@@ -10,7 +10,7 @@
     <div class="collapse navbar-collapse text-center" id="navbarSupportedContent" onMouseover="this.style.color='blue'" onMouseout="this.style.color='red'">
       <ul class="navbar-nav mr-0">
         <li class="nav-item active">
-          <a class="nav-link rounded-pill" style="color:indigo" href="#" onMouseover="this.style.backgroundColor='indigo'; this.style.color='white'" onMouseout="this.style.backgroundColor='white';this.style.color='indigo'"> Contacto <span class="sr-only">(current)</span></a>
+          <a class="nav-link rounded-pill" style="color:indigo;" href="#" onMouseover="this.style.backgroundColor='indigo'; this.style.color='white'" onMouseout="this.style.backgroundColor='white';this.style.color='indigo'"> Contacto <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link rounded-pill" style="color:indigo" href="#" onMouseover="this.style.backgroundColor='indigo'; this.style.color='white'" onMouseout="this.style.backgroundColor='white';this.style.color='indigo'">Acerca de</a>
