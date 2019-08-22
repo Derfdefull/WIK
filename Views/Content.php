@@ -1,6 +1,11 @@
 <?php include_once './Source/Styles.php'; ?>
 <div class="bd-example "  >
-  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" style="height:610px">
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" style="height:610px;background-color:rgb(0,0,0,0);
+   
+   width:60%;
+   height:70px;
+   position:absolute;
+   top:0px;">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
