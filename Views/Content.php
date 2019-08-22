@@ -1,5 +1,5 @@
 <?php include_once './Source/Styles.php'; ?>
-<div class="bd-example bg-dark">
+<div class="bd-example "  >
   <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" style="height:610px">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -47,7 +47,7 @@
 
 
 
-<!--     Contenido Superior   -->   
+<!--     Contenido Superior  
 <div class="row border-top">
 	<div class="col-md-4 col-sm-4 d-none d-md-block">
 
@@ -73,7 +73,7 @@
 		</div>
 	</div>
 </div>-->
-<!--      Tarjetas     --> 
+<!--      Tarjetas     
 
 <div class="row card-group">
 	 <?php
@@ -98,4 +98,4 @@
 			</div>
 		</div>
 	<?php } ?>
-</div>
+</div> -->   
