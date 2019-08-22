@@ -1,11 +1,10 @@
 <?php include_once './Source/Styles.php'; ?>
-<div class="bd-example "  >
-  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" style="height:610px;background-color:rgb(0,0,0,0);
-   
-   width:60%;
-   height:70px;
-   position:absolute;
-   top:0px;">
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-10" style="top:2%;">sdfgsdfsdffsd
+	<div class="bd-example "  >
+    <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" style="background-color:rgb(0,0,0,0);
+    width:50%; position:absolute;  border:solid; border-color:orange">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
       <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -13,22 +12,21 @@
     </ol>
     <div class="carousel-inner ">
       <div class="carousel-item active">
-        <img style="height:610px" src="./img/Ekisde.jpg" class="d-block w-100" alt="...">
-		<div class="carousel-caption d-none d-md-block" style="background-color:rgb(0,0,0,0.75); 
-		">
+        <img style="height:450px" src="./img/Ekisde.jpg" class="d-block w-100" alt="...">
+		<div class="carousel-caption d-none d-md-block" style="background-color:rgb(0,0,0,0.75); ">
           <h5 style="font-family:Comic Sans MS">Mantenimiento de Computadoras</h5>
           <p style="font-family:Comic Sans MS">Contamos con los mejores tecnicos para computadores, mas info aqui!!</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img style="height:610px" src="./img/LogoKIWI.png" class="d-block w-100" alt="...">
+        <img style="height:450px" src="./img/LogoKIWI.png" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5>Second slide label</h5>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
         </div>
       </div>
       <div class="carousel-item">
-        <img style="height:610px" src="./img/LogoKIWI.png" class="d-block w-100" alt="...">
+        <img style="height:450px" src="./img/LogoKIWI.png" class="d-block w-100" alt="...">
         <div class="carousel-caption d-none d-md-block">
           <h5>Third slide label</h5>
           <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
@@ -45,10 +43,17 @@
     </a>
   </div>
 </div>
+</div>
 
 <!-- ******************************************************************************************************** -->
 
-
+<!--     Costado derecho -->
+   <div class="col-md-2" style="border:solid; border-color:orange; top:2%;">
+   sdfsdf
+   </div>
+	
+  </div>
+<!-- ******************************************************************************************************** -->
 
 
 
