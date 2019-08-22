@@ -29,6 +29,13 @@
       </div>
     </div>
 
+  <!--      Particles    -->
+  <div class="col-12" style=" background-color: indigo;">
+      <div class="container-fluid" >
+        <?php include_once './Views/Particles.php'; ?>
+      </div>
+    </div>
+
     <!--      Footer     -->
     <div class="col-12">
       <?php include_once './Views/Footer.php'; ?>
