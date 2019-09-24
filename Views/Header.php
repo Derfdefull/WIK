@@ -8,7 +8,8 @@
         <li><a href=""> Contáctanos </a></li>
         <li><a href=""> Acerca de </a></li>
         </ul>
-      </nav>
+      </nav>  
+      <div class="d-block d-md-none btn"> <a  href=""> <img src="./img/user.png" /> Iniciar sesion </a> </div>
 </header>
 
         
