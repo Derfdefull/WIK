@@ -11,7 +11,7 @@
 </head>
 
   <body>
-    <div class="row">
+    <div  class="row">
 
       <!--      Header    -->
       <div class="col-12">
@@ -19,7 +19,7 @@
       </div>
       
     <!--      Particles && Content   -->
-    <div class="col-12" >
+    <div class="col-12">
         <div class="container-fluid Particlebg" >
           <?php include_once './Views/Particles.php'; ?>  
         </div> 
@@ -30,11 +30,13 @@
       <div class="col-12">
         <?php include_once './Views/Footer.php'; ?>
       </div>
-
     </div>
+
+
+    <!--      Navigation Mobile     -->
     <div class="d-flex d-md-none NavMobile"> 
         <nav>  
-          <ul class="navLinks">
+          <ul>
           <li><a href=""> <img src="./img/contract.png" />Registrate </a></li>
           <li><a href=""> <img src="./img/customer.png" /> Servicios </a></li>
           <li><a href=""> <img src="./img/customer-service.png" /> Contáctanos </a></li>
@@ -42,5 +44,6 @@
           </ul>
         </nav>
     </div>
+
   </body>
 </html>

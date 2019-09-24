@@ -3,7 +3,7 @@
 
 
 <!-- particles.js container -->
-<div id="particles-js" class="Content">
+<div class="Content">
     <?php include_once './Views/Content.php'; ?>
 </div>
 

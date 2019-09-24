@@ -1,6 +1,6 @@
     
-   <div class="row">
-        <div class="col-4 col-sm-12 col-md-12 col-lg-4 col-xl-5 ContentSlider1"> 
+   <div class="row mt-3">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-5 ContentSlider1"> 
         <div class="slider">
 			<ul>
 				<li>
@@ -21,10 +21,10 @@
         <button class="button button2">Cuentame mas!</button>
 
         </div>
-        <div class="col-4 col-sm-12 col-md-12 col-lg-3 col-xl-3 ContentSlider2"> kkkk 
+        <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 ContentSlider2"> kkkk 
 
         </div>
-        <div class="col-4 col-sm-12 col-md-12 col-lg-4 col-xl-3 ContentSlider3"> kkkk 
+        <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-3 ContentSlider3"> kkkk 
 
         </div>
     </div>
