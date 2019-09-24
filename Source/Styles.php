@@ -14,7 +14,8 @@
 }
 
 body, html{
- 	background-color: indigo;
+ 	
+	background-color:rgba(255,0,0, 0.4);
 	font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     max-width:100%;

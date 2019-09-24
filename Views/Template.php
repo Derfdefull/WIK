@@ -30,10 +30,10 @@
     </div>
 
   <!--      Particles    -->
-  <div class="col-12" style=" background-color: indigo;">
+  <div class="col-12" style="background:linear-gradient(180deg, snow, purple, indigo);">
       <div class="container-fluid" >
-        <?php include_once './Views/Particles.php'; ?>
-      </div>
+        <?php include_once './Views/Particles.php'; ?>  
+      </div> 
     </div>
 
     <!--      Footer     -->
