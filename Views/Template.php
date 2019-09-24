@@ -1,14 +1,13 @@
 <!doctype html>
 <html lang="en">
-
 <head>
   <title>KiwiDreamers</title>
-  <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie-edge">
   <link rel="icon" href="./img/Favicon.png">
-  <link rel="stylesheet/css" href="../Source/bootstrap-grid.css">
+  <link rel="stylesheet/css" href="./Source/CSS/bootstrap-grid.css">
+  <link rel="stylesheet" href="./Source/CSS/Styles.css">
 </head>
 
   <body class="font-weight-bold ">
@@ -21,7 +20,7 @@
       </div>
       
       <!--      Content    -->
-      <div class="col-12 ">
+      <div class="col-12">
         <div class="container-fluid" >
           
         </div>

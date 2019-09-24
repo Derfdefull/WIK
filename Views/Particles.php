@@ -8,10 +8,10 @@
 </div>
 
 <!-- scripts -->
-<script src="./Source/Particle.js"></script>
-<script src="./Source/App.js"></script>
+<script src="./Source/JS/Particle.js"></script>
+<script src="./Source/JS/App.js"></script>
 
 <!-- stats.js -->
-<script src="./Source/Stats.js"></script>
+<script src="./Source/JS/Stats.js"></script>
 
 
