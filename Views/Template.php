@@ -26,11 +26,11 @@
     </div>
 
       
-
-    </div>
     <!--      Footer     -->
       <div class="col-12">
         <?php include_once './Views/Footer.php'; ?>
       </div>
+
+    </div>
   </body>
 </html>
