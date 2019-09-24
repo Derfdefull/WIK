@@ -4,7 +4,7 @@
 
 <!-- particles.js container -->
 <div id="particles-js">
-<?php include_once './Views/Content.php'; ?>
+    <?php include_once './Views/Content.php'; ?>
 </div>
 
 <!-- scripts -->
