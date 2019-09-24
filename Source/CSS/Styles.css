@@ -6,10 +6,6 @@
     box-sizing: border-box;
 }
 
-.Content {
-    padding-left: 10%;
-    padding-right: 10%;
-}
 
 body,
 html {
@@ -28,13 +24,33 @@ html {
     background: linear-gradient(180deg, snow, purple, indigo);
 }
 
-
 header {
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
 }
 
+.NavMobile {
+	bottom: 0;
+	min-width: 100%;
+	position: fixed;
+	display: absolute;
+	align-items: center;
+	background-color: snow;
+}
+
+.NavMobile a {
+	font-size: 10px;
+	color: indigo;
+	text-align: center;
+	border-top: 
+}
+
+.NavMobile li {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px;
+}
 
 li, a, button{
 	color: indigo;
@@ -46,9 +62,8 @@ li, a, button{
 	list-style: none;
 }
 
-.navLinks  li{
+.navLinks li{
 	display: inline-block;
-	padding: 0px 20px;
 	border-bottom: solid 0px indigo;
 }
 
@@ -61,6 +76,14 @@ li, a, button{
 	transition: all .3s ease 0s;
 }
 
+
+
+a > img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .Logo{
 	width: 150px;
 	height: 75px;
@@ -68,33 +91,8 @@ li, a, button{
 	margin-right: auto;
 }
 
-.ContentSlider1 {
-    opacity: 100%;
-    position: absolute;
-    margin: 15px;
-    height: 500px;
-    padding: 35px;
-    border-radius: 15%;
-    background-color: rgba(0, 0, 0, 0.1);
-}
-
-.ContentSlider2 {
-    opacity: 100%;
-    left: 45%;
-    position: absolute;
-    margin: 15px;
-    height: 500px;
-    padding: 35px;
-    border-radius: 15%;
-    background-color: rgba(0, 0, 0, 0.1);
-}
-
-.ContentSlider3 {
-    opacity: 100%;
-    position: absolute;
-    left: 72%;
-    margin: 15px;
-    height: 500px;
+.ContentSlider {
+	margin: 5px;
     padding: 35px;
     border-radius: 15%;
     background-color: rgba(0, 0, 0, 0.1);
