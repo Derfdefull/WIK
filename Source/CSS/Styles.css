@@ -61,6 +61,13 @@ li, a, button{
 	transition: all .3s ease 0s;
 }
 
+.Logo{
+	width: 150px;
+	height: 75px;
+	padding-left: 15px; 
+	margin-right: auto;
+}
+
 .ContentSlider1 {
     opacity: 100%;
     position: absolute;
