@@ -6,7 +6,6 @@
     box-sizing: border-box;
 }
 
-
 body,
 html {
     font-size: 20px;
@@ -31,40 +30,41 @@ header {
 }
 
 .NavMobile {
-	bottom: 0;
-	min-width: 100%;
-	position: fixed;
-	display: absolute;
-	align-items: center;
-	background-color: snow;
+    bottom: 0;
+    min-width: 100%;
+    position: fixed;
+    display: absolute;
+    align-items: center;
+    background-color: snow;
 }
 
 .NavMobile a {
-	font-size: 10px;
-	color: indigo;
-	text-align: center;
-
+    font-size: 10px;
+    color: indigo;
+    text-align: center;
 }
 
 .NavMobile li {
-	margin-left: auto;
-	margin-right: auto;
-	padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
 }
 
-li, a, button{
-	color: indigo;
-	font-size: 20px;
-	text-decoration: none;
+li,
+a,
+button {
+    color: indigo;
+    font-size: 20px;
+    text-decoration: none;
 }
 
 .navLinks {
     list-style: none;
 }
 
-.navLinks li{
-	display: inline-block;
-	border-bottom: solid 0px indigo;
+.navLinks li {
+    display: inline-block;
+    border-bottom: solid 0px indigo;
 }
 
 .navLinks li a {
@@ -76,23 +76,30 @@ li, a, button{
     transition: all .3s ease 0s;
 }
 
-
-
-a > img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+a>img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.Logo{
-	width: 150px;
-	height: 75px;
-	padding-left: 15px; 
-	margin-right: auto;
+.Logo {
+    width: 150px;
+    height: 75px;
+    padding-left: 15px;
+    margin-right: auto;
 }
 
-.ContentSlider {
-	margin: 5px;
+.ContentSlider1 {
+    margin: 5px;
+    height: 500px;
+    padding: 35px;
+    border-radius: 15%;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.ContentSlider2 {
+    margin: 5px;
+    height: 500px;
     padding: 35px;
     border-radius: 15%;
     background-color: rgba(0, 0, 0, 0.1);
@@ -100,7 +107,7 @@ a > img {
 
 .ContentSlider3 {
     opacity: 100%;
-    margin: 15px;
+    margin: 5px;
     height: 500px;
     padding: 35px;
     border-radius: 15%;
@@ -168,7 +175,6 @@ a > img {
     margin: 4px 2px;
     cursor: pointer;
     -webkit-transition-duration: 0.4s;
-    /* Safari */
     transition-duration: 0.4s;
 }
 
