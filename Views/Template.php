@@ -32,18 +32,8 @@
       </div>
     </div>
 
+    <?php include_once './Views/MobNav.php'; ?>
 
-    <!--      Navigation Mobile     -->
-    <div class="d-flex d-md-none NavMobile"> 
-        <nav>  
-          <ul>
-          <li><a href=""> <img src="./img/contract.png" />Registrate </a></li>
-          <li><a href=""> <img src="./img/customer.png" /> Servicios </a></li>
-          <li><a href=""> <img src="./img/customer-service.png" /> Contáctanos </a></li>
-          <li><a href=""> <img src="./img/about-us.png" /> Acerca de </a></li>
-          </ul>
-        </nav>
-    </div>
 
   </body>
 </html>
