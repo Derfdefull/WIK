@@ -203,7 +203,7 @@ small {
     transition: all .3s ease 0s;
 }
 
-a>img {
+a > img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -236,54 +236,6 @@ a>img {
     border-radius: 10%;
     margin: 20px 14px 14px 0px;
     background-color: rgba(0, 0, 0, 0.15);
-}
-
-.slider {
-    border-radius: 25px;
-    width: 100%;
-    height: 200px;
-    overflow: hidden;
-}
-
-.slider ul {
-    display: flex;
-    padding: 0%;
-    width: 400%;
-    animation: cambio 15s infinite alternate linear;
-}
-
-.slider li {
-    width: 100%;
-    list-style: none;
-}
-
-.slider img {
-    height: 200px;
-    width: 100%;
-}
-
-@keyframes cambio {
-    20% {
-        margin-left: 0;
-    }
-    25% {
-        margin-left: -100%;
-    }
-    45% {
-        margin-left: -100%;
-    }
-    50% {
-        margin-left: -200%;
-    }
-    70% {
-        margin-left: -200%;
-    }
-    75% {
-        margin-left: -300%;
-    }
-    100% {
-        margin-left: -300%;
-    }
 }
 
 .button {
@@ -346,4 +298,97 @@ a [class="mobile-link"] > img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.slider {
+    width: 100%;
+    height: 100%;
+    min-height: 600px;
+    max-height: 1000px;
+    display: block;
+    position: relative;
+    background: rgba(0, 0, 0, .3);
+}
+
+.slider-img > img{
+    width: 100%;
+    height: 100%;
+    min-height: 450px;
+    max-height: 1000px;
+    position: absolute;
+    z-index: 1;
+}
+
+.slider-info {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    min-height: 600px;
+    max-height: 1000px;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: -1;
+}
+
+.slider-info > h1,h2,h3,h4,h5,h6 {
+    top: 25%;
+    position: relative;
+    color: snow;
+    text-align: center;
+}
+
+.slider-info > p {
+    top: 30%;
+    color: snow;
+    position: relative;
+    text-align: center;
+    padding: 0 15px;
+}
+
+.slider-info > input {
+    top: 35%;
+    position: relative;
+    text-align: center;
+}
+
+#l1, #l2, #l3 {
+    display: none; 
+}
+
+#l1:checked ~ #sli1,
+#l2:checked ~ #sli2,
+#l3:checked ~ #sli3 {
+    z-index: 9;
+}
+
+.nav-dots {
+    width: 100%;
+    height: 11px;
+    bottom: 12%;
+    position: absolute;
+    text-align: center;
+    z-index: 99;
+}
+
+.dots {
+
+    bottom: 0;
+    width: 18px;
+    height: 18px;
+    margin: 0 4px;
+    display: inline-block;
+    border-radius: 50%;
+    position: relative;
+    background: rgba(0, 0, 0, .3)
+}
+
+#l1:checked ~ .nav-dots #dot1,
+#l2:checked ~ .nav-dots #dot2,
+#l3:checked ~ .nav-dots #dot3 {
+    background: #fff;
+}
+ .nav-dots #dot1:hover,
+ .nav-dots #dot2:hover,
+ .nav-dots #dot3:hover {
+    background: #fff;
+    transition: .3s;
 }

@@ -18,10 +18,19 @@
         <?php include_once './Views/Header.php'; ?>
       </div>
       
-    <!--      Particles && Content   -->
+  
+    <!--      Slider   -->
+    <div class="col-12">
+        <div class="Particlebg" >
+          <?php include_once './Views/Slider.php'; ?>  
+        </div> 
+    </div>
+
+
+    <!--      Content   -->
     <div class="col-12">
         <div class="container-fluid Particlebg" >
-          <?php include_once './Views/Particles.php'; ?>  
+          <?php include_once './Views/Content.php'; ?>  
         </div> 
     </div>
 
