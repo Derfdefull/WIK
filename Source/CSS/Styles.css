@@ -363,7 +363,7 @@ a [class="mobile-link"] > img {
 .nav-dots {
     width: 100%;
     height: 11px;
-    bottom: 12%;
+    top:40%;
     position: absolute;
     text-align: center;
     z-index: 99;
